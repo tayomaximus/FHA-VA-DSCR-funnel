@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Read(//usr/local/bin/**)",
+      "Bash(source ~/.zshrc)",
+      "Bash(/usr/local/bin/npm install:*)",
+      "Bash(/usr/local/bin/node --version)",
+      "Read(//Users/fumihito/.nvm/versions/**)",
+      "Read(//opt/homebrew/bin/**)",
+      "Read(//Users/fumihito/.volta/bin/**)",
+      "Bash(PATH=\"/usr/local/bin:$PATH\" npm install)",
+      "Bash(PATH=\"/usr/local/bin:$PATH\" npm run build)",
+      "Read(//Users/fumihito/Desktop/**)",
+      "Read(//Users/fumihito/Documents/**)",
+      "Bash(eval '$\\(ssh-agent -s\\)')",
+      "Bash(ssh-add ~/.ssh/id_ed25519)",
+      "Bash(ssh-add ~/.ssh/id_rsa)",
+      "Bash(ssh-add)",
+      "Bash(ssh -T git@github.com)",
+      "Bash(ssh-add --apple-use-keychain ~/.ssh/id_ed25519)",
+      "WebFetch(domain:www.lendingtree.com)",
+      "WebFetch(domain:docs.google.com)",
+      "Bash(npm run:*)"
+    ]
+  }
+}

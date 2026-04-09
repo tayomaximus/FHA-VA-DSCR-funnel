@@ -77,7 +77,7 @@ export interface FunnelConfig {
 // ─────────────────────────────────────────────────────────────────────────────
 export const fhaFunnel: FunnelConfig = {
   id: 'fha',
-  companyName: 'MortgagePro',
+  companyName: 'Kindred Mortgage Group',
 
   intro: {
     badge: 'FHA Loan Program',
@@ -187,7 +187,7 @@ export const fhaFunnel: FunnelConfig = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const vaFunnel: FunnelConfig = {
   id: 'va',
-  companyName: 'MortgagePro',
+  companyName: 'Kindred Mortgage Group',
 
   intro: {
     badge: 'VA Loan Benefit',
@@ -292,7 +292,7 @@ export const vaFunnel: FunnelConfig = {
 // ─────────────────────────────────────────────────────────────────────────────
 export const dscrFunnel: FunnelConfig = {
   id: 'dscr',
-  companyName: 'MortgagePro',
+  companyName: 'Kindred Mortgage Group',
 
   intro: {
     badge: 'DSCR Investor Loan',

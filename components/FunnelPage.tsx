@@ -139,9 +139,14 @@ export default function FunnelPage({ config }: FunnelPageProps) {
               letterSpacing: '-0.01em',
             }}
           >
-            {/* Replace with your logo or company name */}
-            <Link href="/" style={{ color: 'inherit', textDecoration: 'none' }}>
-              {config.companyName}
+            <Link href="/" style={{ display: 'inline-block', textDecoration: 'none' }}>
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src="https://kindredmortgagegroup.com/wp-content/uploads/2024/07/2021-06-02.png"
+                alt="Kindred Mortgage Group"
+                height={40}
+                style={{ height: '40px', width: 'auto', display: 'block' }}
+              />
             </Link>
           </span>
         </div>
@@ -296,10 +301,10 @@ export default function FunnelPage({ config }: FunnelPageProps) {
           className="text-center text-xs py-6 px-4"
           style={{ color: theme.textMuted, borderTop: `1px solid ${theme.border}` }}
         >
-          © {new Date().getFullYear()} {config.companyName} · Licensed Mortgage Lender ·{' '}
-          <a href="#" style={{ color: theme.textMuted }}>
+          © 2026 Kindred Mortgage Group, LLC · Licensed Mortgage Lender ·{' '}
+          <Link href="/privacy" style={{ color: theme.textMuted }}>
             Privacy Policy
-          </a>
+          </Link>
         </footer>
       )}
     </div>
